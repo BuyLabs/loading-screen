@@ -6,5 +6,5 @@ setInterval(() => {
   const width = parseFloat(computedStyle.getPropertyValue('--width')) || 0
   progressBar.style.setProperty('--width', width + .1)
   progress ++
-  if (progress =< 800) progredsBar.innerHTML;
+  if (progress =< 800) progredsBar.setAttrubute('data-label', 'Nearly Done!')
 }, 5)
